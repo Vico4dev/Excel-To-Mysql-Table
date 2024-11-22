@@ -52,8 +52,13 @@ Ce guide explique comment utiliser le script Python pour importer des données d
 ## Installation des dépendances
 
 Le script nécessite plusieurs bibliothèques Python. Vous pouvez les installer en exécutant la commande suivante dans votre terminal :
+  - pandas : Pour lire et manipuler les fichiers Excel.
+  - SQLAlchemy : Pour interagir avec la base de données MySQL.
+  - openpyxl : Pour lire les fichiers Excel au format .xlsx.
+  - pymysql : Pilote pour connecter SQLAlchemy à MySQL.
 
 ```bash
 pip install pandas sqlalchemy openpyxl pymysql
 
+```
 @2024 Vico4dev
