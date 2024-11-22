@@ -61,4 +61,20 @@ Le script nécessite plusieurs bibliothèques Python. Vous pouvez les installer 
 pip install pandas sqlalchemy openpyxl pymysql
 
 ```
+
+## Remarques importantes
+Sécurité :
+
+ - Il est fortement recommandé de ne pas utiliser l'utilisateur root sans mot de passe pour des raisons de sécurité.
+Créez un utilisateur dédié avec un mot de passe et des permissions limitées pour vos opérations d'importation.
+Encodage des caractères :
+
+ - Assurez-vous que votre base de données MySQL est configurée avec l'encodage utf8mb4 pour gérer correctement les caractères spéciaux et les emojis.
+## Personnalisation du script :
+
+Vous pouvez ajuster la fonction map_sql_type pour mapper d'autres types de données ou personnaliser les types existants en fonction de vos besoins.
+Vérification des données :
+
+Avant d'importer, vérifiez que vos données sont cohérentes et qu'elles correspondent aux types de données sélectionnés.
+
 @2024 Vico4dev
